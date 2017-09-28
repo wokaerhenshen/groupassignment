@@ -1,0 +1,83 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/*css in welcome page*/
+
+h1{
+    margin-left: 250px;
+    margin-top: 50px
+}
+.content_wp{
+   position: absolute;
+}
+
+#figure{
+    width: 500px;
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.discription{
+    font-size: 20px;
+    margin-top:50px;
+    margin-left: 130px
+}
+
+#sign_in{
+   margin-left: 700px;
+   margin-top: 80px;
+   padding-right: 11px
+   
+}
+
+#sign_up{
+    margin-top: 10px;
+    margin-left: 700px;
+}
+
+#stuff_in{
+    margin-left: 700px;
+    margin-top: 280px;
+}
+
+/*css in sign in page*/
+
+.sign_in{
+   margin-left: 250px;
+    margin-top: 150px;
+    width: 500px;
+    height: 400px;
+    background-color: darkgray
+}
+
+.form_sign_in{
+    text-align: center;
+    line-height:50px
+}
+
+
+
+/*css in profile page*/
+
+#existing_booking{
+    position: absolute;
+    text-align: center;
+}
+
+#new_booking{
+    margin-left: 700px;
+}
+
+.booking{
+    font-size: 20px;
+}
+
+.new_booking{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+}
