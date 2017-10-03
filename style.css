@@ -126,3 +126,13 @@ h2{
     background-color: dimgray;
     padding: 10px;
 }
+
+.header,
+.main-content{
+   font-family: sans-serif;
+    font: Arial; 
+}
+
+.header{
+    text-align: center;
+}
