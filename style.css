@@ -6,6 +6,11 @@ body{
 
 /*css in welcome page*/
 
+.personalLink{
+  display: inline-block;
+  padding: 5px;
+}
+
 h1{
     margin-left: 250px;
     margin-top: 50px
