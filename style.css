@@ -12,10 +12,15 @@ body{
 }
 
 h1{
-    margin-left: 250px;
-    margin-top: 50px
+ align-content: center;   
 
 }
+
+.logo{
+   padding: 10px;
+   align-items: auto; 
+}
+
 .content_wp{
    position: absolute;
 }
