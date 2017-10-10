@@ -1,4 +1,4 @@
-body{
+body {
     width: 1000px;
     margin: 0 auto;
 }
@@ -6,89 +6,89 @@ body{
 
 /*css in welcome page*/
 
-.personalLink{
-  display: inline-block;
-  padding: 5px;
+.personalLink {
+    display: inline-block;
+    padding: 5px;
 }
 
-h1{
- align-content: center;   
-
+h1 {
+    align-content: center;
 }
 
-.logo{
-   padding: 10px;
-   align-items: auto; 
+.logo {
+    padding: 10px;
+    align-items: auto;
 }
 
-.content_wp{
-   position: absolute;
+.content_wp {
+    position: absolute;
 }
 
-#figure{
+#figure {
     width: 500px;
     height: 300px;
     margin-top: 80px;
     margin-left: 100px;
 }
 
-.discription{
+.description {
     font-size: 20px;
-    margin-top:50px;
+    margin-top: 50px;
     margin-left: 130px
 }
 
-#sign_in{
-   margin-left: 700px;
-   margin-top: 80px;
-   padding-right: 11px
-   
+.navForm {
+    width: 30%;
+    float: right;
+    padding-top: 20%;
 }
 
-#sign_up{
-    margin-top: 10px;
-    margin-left: 700px;
+#signin {
+    padding-bottom: 10px;
 }
 
-#staff_in{
-    margin-left: 700px;
-    margin-top: 280px;
+#signup {
+    padding-bottom: 10px;
 }
+
+#signupStaff {
+    padding-bottom: 10px;
+}
+
 
 /*css in sign in page*/
 
-.sign_in{
-   margin-left: 250px;
+.sign_in {
+    margin-left: 250px;
     margin-top: 150px;
     width: 500px;
     height: 400px;
     background-color: darkgray
 }
 
-.form_sign_in{
+.form_sign_in {
     text-align: center;
-    line-height:50px
+    line-height: 50px
 }
-
 
 
 /*css in customer profile page*/
 
-.existing_booking{
+.existing_booking {
     position: absolute;
     text-align: center;
 }
 
-#new_booking{
+#new_booking {
     margin-left: 700px;
 }
 
-.booking{
+.booking {
     font-size: 20px;
     text-align: center;
 }
 
-.book_and_logout{
+.book_and_logout {
     margin-left: 30px;
     margin-top: 30px;
     font-size: 20px;
@@ -97,13 +97,14 @@ h1{
 
 /* css in booking page*/
 
-h2{
+h2 {
     text-align: center;
 }
 
+
 /*css in staff page*/
 
-#staff_information{
+#staff_information {
     margin-left: 400px;
 }
 
@@ -132,15 +133,16 @@ h2{
     line-height: 40px;
 }
 
-.nav a:focus, .nav a:active, .nav a:hover {
+.nav a:focus,
+.nav a:active,
+.nav a:hover {
     background-color: white;
     color: darkred;
     padding: 10px;
-    
 }
 
 .header,
-.main-content{
+.main-content {
     text-align: center;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
