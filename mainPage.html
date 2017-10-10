@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MainPage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+        .table {
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="existing_booking">
+        <p class="booking">Existing Booking</p>
+        <table class="table table-hover" border="1px">
+            <thead>
+                <tr>
+                    <th>Checkin_Date</th>
+                    <th>Checkout_Date</th>
+                    <th>Number of People</th>
+                    <th>Number of Rooms</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2017/9/26</td>
+                    <td>2017/10/13</td>
+                    <td>5</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form method="get" action="mainPage.html" class="form-grup">
+            <br> &nbsp FirstName
+            <input type="text" name="FirstName" class="form-control" value="karl">
+            <br>
+            <br> LastName
+            <input type="text" name="LastName" class="form-control" value="xu">
+            <br>
+            <br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Email
+            <input type="text" name="Email" class="form-control" value="karlxu0410@gmail.com">
+            <br>
+            <br> &nbsp Password
+            <input type="password" name="Password" class="form-control" value="123456">
+            <br>
+            <br>
+            <button type="submit" class="btn btn-primary">Update</button>
+        </form>
+
+    </div>
+
+    <div id="new_booking">
+        <p class="booking">New Booking</p>
+        <form method="get" action="book.html" class="book_and_logout">
+            <button type="submit" class="btn btn-primary">Book</button>
+        </form>
+        <form method="get" action="index.html" class="book_and_logout">
+            <button type="submit" class="btn btn-primary">Logout</button>
+        </form>
+    </div>
+</body>
+
+</html>
