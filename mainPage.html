@@ -16,6 +16,15 @@
 
 <body>
     <div class="existing_booking">
+        <div id="new_booking">
+            <p class="booking">New Booking</p>
+            <form method="get" action="book.html" class="book_and_logout bookForm">
+                <button type="submit" class="btn btn-primary">Book</button>
+            </form>
+            <form method="get" action="index.html" class="book_and_logout bookForm">
+                <button type="submit" class="btn btn-primary">Logout</button>
+            </form>
+        </div>
         <p class="booking">Existing Booking</p>
         <table class="table table-hover" border="1px">
             <thead>
@@ -24,6 +33,7 @@
                     <th>Checkout_Date</th>
                     <th>Number of People</th>
                     <th>Number of Rooms</th>
+                    <th>Cancel Booking</th>
                 </tr>
             </thead>
             <tbody>
@@ -32,6 +42,9 @@
                     <td>2017/10/13</td>
                     <td>5</td>
                     <td>3</td>
+                    <td>
+                        <button type="submit" class="btn btn-primary">Cancel</button>
+                    </td>
                 </tr>
             </tbody>
         </table>
@@ -56,17 +69,11 @@
             <button type="submit" class="btn btn-primary">Update</button>
         </form>
 
+
+
     </div>
 
-    <div id="new_booking">
-        <p class="booking">New Booking</p>
-        <form method="get" action="book.html" class="book_and_logout">
-            <button type="submit" class="btn btn-primary">Book</button>
-        </form>
-        <form method="get" action="index.html" class="book_and_logout">
-            <button type="submit" class="btn btn-primary">Logout</button>
-        </form>
-    </div>
+
 </body>
 
 </html>

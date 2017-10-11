@@ -11,6 +11,10 @@ body {
     padding: 5px;
 }
 
+.bookForm {
+    display: inline !important;
+}
+
 h1 {
     align-content: center;
 }
@@ -81,11 +85,6 @@ h1 {
 
 /*css in customer profile page*/
 
-.existing_booking {
-    position: absolute;
-    text-align: center;
-}
-
 #new_booking {
     margin-left: 700px;
 }
@@ -110,10 +109,6 @@ h2 {
 
 
 /*css in staff page*/
-
-#staff_information {
-    margin-left: 400px;
-}
 
 .nav {
     background-color: #004085;
