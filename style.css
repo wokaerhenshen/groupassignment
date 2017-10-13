@@ -1,6 +1,11 @@
+html{
+	margin: 0;
+	padding: 0;
+}
 body {
     width: 1000px;
     margin: 0 auto;
+	overflow: hidden;
 }
 
 
@@ -44,6 +49,7 @@ h1 {
 .description {
     font-size: 20px;
     margin-top: 50px;
+	padding-bottom: 6%;;
 }
 
 .navForm {
@@ -161,4 +167,17 @@ h2 {
     color: black;
     background-color: white;
     border-color: #007bff;
+}
+
+.footer{
+	height: 75px;
+	background-color: #004085;
+	text-align: center;
+	border-top: 1px solid black;
+	color: white;
+	
+}
+
+.footer p {
+	line-height: 75px;
 }
